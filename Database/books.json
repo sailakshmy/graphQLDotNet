@@ -1,0 +1,38 @@
+[
+    {
+        "BookId": 17,
+        "Name": "Harry Potter",
+        "Pages": 267,
+        "Price": 0
+    },
+    {
+        "BookId": 54,
+        "Name": "Memory Man",
+        "Pages": 560,
+        "Price": 0
+    },
+    {
+        "BookId": 66,
+        "Name": "Exhalation",
+        "Pages": 368,
+        "Price": 0
+    },
+    {
+        "BookId": 91,
+        "Name": "Lord of the Rings",
+        "Pages": 777,
+        "Price": 0
+    },
+    {
+        "BookId": 4763,
+        "Name": "Hunger Games",
+        "Pages": 780,
+        "Price": 111
+    },
+    {
+        "BookId": 2555,
+        "Name": "Pride and Prejudice",
+        "Pages": 180,
+        "Price": 109
+    }
+]

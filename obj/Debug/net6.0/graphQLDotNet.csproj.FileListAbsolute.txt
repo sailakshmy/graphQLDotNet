@@ -49,3 +49,4 @@ C:\Users\Sai Lakshmy\Documents\GitHub\graphQLDotNet\obj\Debug\net6.0\refint\grap
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLDotNet\obj\Debug\net6.0\graphQLDotNet.pdb
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLDotNet\obj\Debug\net6.0\graphQLDotNet.genruntimeconfig.cache
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLDotNet\obj\Debug\net6.0\ref\graphQLDotNet.dll
+C:\Users\Sai Lakshmy\Documents\GitHub\graphQLDotNet\bin\Debug\net6.0\Database\books.json
