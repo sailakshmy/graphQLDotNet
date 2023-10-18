@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "graphQLDotNet/1.0.0": {
         "dependencies": {
-          "HotChocolate.AspNetCore": "13.5.1"
+          "HotChocolate.AspNetCore": "13.5.1",
+          "HotChocolate.AspNetCore.Authorization": "13.5.1"
         },
         "runtime": {
           "graphQLDotNet.dll": {}
@@ -73,6 +74,17 @@
         },
         "runtime": {
           "lib/net6.0/HotChocolate.AspNetCore.dll": {
+            "assemblyVersion": "13.5.1.0",
+            "fileVersion": "13.5.1.0"
+          }
+        }
+      },
+      "HotChocolate.AspNetCore.Authorization/13.5.1": {
+        "dependencies": {
+          "HotChocolate": "13.5.1"
+        },
+        "runtime": {
+          "lib/net6.0/HotChocolate.AspNetCore.Authorization.dll": {
             "assemblyVersion": "13.5.1.0",
             "fileVersion": "13.5.1.0"
           }
@@ -446,6 +458,13 @@
       "sha512": "sha512-3K+ir7iPvSuKOKSaoySik7Z2zqwQnOUDWIzHW0Nvy4VexwLHSIeS/m+W0vpXil9m1iwpEJ2EirgBBuRrGffbQw==",
       "path": "hotchocolate.aspnetcore/13.5.1",
       "hashPath": "hotchocolate.aspnetcore.13.5.1.nupkg.sha512"
+    },
+    "HotChocolate.AspNetCore.Authorization/13.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qQx7uaVgUbu6ikU+GKKXfKVh2qiJoWVAfG5BBIuA9TEq/Vr+2pnd9sj3BkDFj/TarzJaJLyh2ZCU/F8NNsLcYw==",
+      "path": "hotchocolate.aspnetcore.authorization/13.5.1",
+      "hashPath": "hotchocolate.aspnetcore.authorization.13.5.1.nupkg.sha512"
     },
     "HotChocolate.Authorization/13.5.1": {
       "type": "package",

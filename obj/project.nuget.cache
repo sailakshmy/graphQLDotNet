@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xW8VFHoa6LGz26NfIL7ADPff2o7kscaVoXJ58Fw5jIhLf1OCDnZyfZZanBqsiWFuV2wAjF1ZDZQHW5/nrbin6w==",
+  "dgSpecHash": "fnrdAkSlNeiL0Z/hS/wh21oSE1E2kKvWkvXR5ZdO4/wUEsSt0mbxALVqP0AkvH70XvBsyqsdQbPQyLFhG1lzpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sai Lakshmy\\Documents\\GitHub\\graphQLDotNet\\graphQLDotNet.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate\\13.5.1\\hotchocolate.13.5.1.nupkg.sha512",
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.abstractions\\13.5.1\\hotchocolate.abstractions.13.5.1.nupkg.sha512",
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.aspnetcore\\13.5.1\\hotchocolate.aspnetcore.13.5.1.nupkg.sha512",
+    "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.aspnetcore.authorization\\13.5.1\\hotchocolate.aspnetcore.authorization.13.5.1.nupkg.sha512",
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.authorization\\13.5.1\\hotchocolate.authorization.13.5.1.nupkg.sha512",
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.execution\\13.5.1\\hotchocolate.execution.13.5.1.nupkg.sha512",
     "C:\\Users\\Sai Lakshmy\\.nuget\\packages\\hotchocolate.execution.abstractions\\13.5.1\\hotchocolate.execution.abstractions.13.5.1.nupkg.sha512",

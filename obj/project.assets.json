@@ -93,6 +93,25 @@
           "build/HotChocolate.AspNetCore.targets": {}
         }
       },
+      "HotChocolate.AspNetCore.Authorization/13.5.1": {
+        "type": "package",
+        "dependencies": {
+          "HotChocolate": "13.5.1"
+        },
+        "compile": {
+          "lib/net6.0/HotChocolate.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HotChocolate.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "HotChocolate.Authorization/13.5.1": {
         "type": "package",
         "dependencies": {
@@ -813,6 +832,27 @@
         "lib/net7.0/HotChocolate.AspNetCore.xml",
         "lib/net8.0/HotChocolate.AspNetCore.dll",
         "lib/net8.0/HotChocolate.AspNetCore.xml",
+        "strawberryshake-signet.png"
+      ]
+    },
+    "HotChocolate.AspNetCore.Authorization/13.5.1": {
+      "sha512": "qQx7uaVgUbu6ikU+GKKXfKVh2qiJoWVAfG5BBIuA9TEq/Vr+2pnd9sj3BkDFj/TarzJaJLyh2ZCU/F8NNsLcYw==",
+      "type": "package",
+      "path": "hotchocolate.aspnetcore.authorization/13.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "greendonut-signet.png",
+        "hotchocolate-signet.png",
+        "hotchocolate.aspnetcore.authorization.13.5.1.nupkg.sha512",
+        "hotchocolate.aspnetcore.authorization.nuspec",
+        "lib/net6.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net6.0/HotChocolate.AspNetCore.Authorization.xml",
+        "lib/net7.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net7.0/HotChocolate.AspNetCore.Authorization.xml",
+        "lib/net8.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net8.0/HotChocolate.AspNetCore.Authorization.xml",
         "strawberryshake-signet.png"
       ]
     },
@@ -1784,7 +1824,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "HotChocolate.AspNetCore >= 13.5.1"
+      "HotChocolate.AspNetCore >= 13.5.1",
+      "HotChocolate.AspNetCore.Authorization >= 13.5.1"
     ]
   },
   "packageFolders": {
@@ -1827,6 +1868,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "HotChocolate.AspNetCore": {
+            "target": "Package",
+            "version": "[13.5.1, )"
+          },
+          "HotChocolate.AspNetCore.Authorization": {
             "target": "Package",
             "version": "[13.5.1, )"
           }
