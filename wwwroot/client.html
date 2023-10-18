@@ -33,7 +33,14 @@
         })
       })
         .then(r => r.json())
-        .then(data => { document.getElementById("results").value = JSON.stringify(data, undefined, 4) });
+        .then(data => { 
+          if(data.errors){
+            console.error(data);
+            document.getElementById("results").value = "An error has occurred. Please try again later."
+          } else {
+            document.getElementById("results").value = JSON.stringify(data, undefined, 4)
+          }
+        });
     }
   </script>
 </head>

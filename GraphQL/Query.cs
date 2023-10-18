@@ -6,6 +6,7 @@ public class Query{
         string fileName = "Database/books.json";
         string jsonString = File.ReadAllText(fileName);
         var books= JsonSerializer.Deserialize<List<Book>>(jsonString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true, Converters={new JsonStringEnumConverter()} })!;
+        throw new Exception("Error occurred while retrieving data");
         return books.Where(book=>book.Name.IndexOf(nameContains)!=-1).ToList();
     }
 }
