@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "ZjunOnzRsiN4PEG/gGXb74ypqVyrBpRsxwrzqi/s0rw=",
+  "Hash": "dR276+NNYh9Y60j95Gnyeyr4L67TBG9Peg+KJvwAZYY=",
   "Source": "graphQLDotNet",
   "BasePath": "_content/graphQLDotNet",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "graphQLDotNet\\wwwroot",
+      "Source": "graphQLDotNet",
+      "ContentRoot": "C:\\Users\\Sai Lakshmy\\Documents\\GitHub\\graphQLDotNet\\wwwroot\\",
+      "BasePath": "_content/graphQLDotNet",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Sai Lakshmy\\Documents\\GitHub\\graphQLDotNet\\wwwroot\\client.html",
+      "SourceId": "graphQLDotNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sai Lakshmy\\Documents\\GitHub\\graphQLDotNet\\wwwroot\\",
+      "BasePath": "_content/graphQLDotNet",
+      "RelativePath": "client.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\client.html"
+    }
+  ]
 }
